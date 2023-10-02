@@ -5,10 +5,7 @@ on:
       username:
         required: true
         type: string
-  push:
-    branches: [ $default-branch ]
-  pull_request:
-    branches: [ $default-branch ]
+
 jobs:
   build:
     runs-on: ubuntu-latest
