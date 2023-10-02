@@ -3,12 +3,12 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
   call-workflow-A:
-    uses: rutulpatel/gh-actions/.github/workflow-templates/wt-ci.yml
+    uses: rutulpatel/gh-actions/.github/workflow-templates/wt-ci.yml@main
     with:
       username: Rick
-      
+
   call-workflow-B:
-    uses: rutulpatel/gh-actions/.github/workflow-templates/wt-ci.yml
+    uses: rutulpatel/gh-actions/.github/workflow-templates/wt-ci.yml@main
     with:
       username: Morty
     
